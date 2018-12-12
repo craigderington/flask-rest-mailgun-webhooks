@@ -1,0 +1,23 @@
+{% extends "_layout.html" %}
+
+{% block content %}
+
+    <div class="bs-component">
+        <div class="jumbotron">
+            <div class="middle-box text-center animated fadeInDown">
+                <h1 align="center"><i class="fa fa-check-circle fa-3x text-success"></i></h1>
+                <h1 class="text-primary">Flask Mailgun Webhook API</h1>
+                <h3>A Python3, Flask, Flask RESTFul &amp; SQLAlchemy MailGun Webhook API with Signature Verification</h3>
+            </div>
+        </div>
+    </div>
+
+    <div align="center" style="margin: 25px;">
+        <small>Current Time: {{ today }}</small>
+    </div>
+
+    <div align="center">
+        <a href="{{ url_for('index') }}" class="btn btn-sm btn-primary"><i class="fa fa-search"></i> View Routes</a>
+    </div>
+
+{% endblock %}

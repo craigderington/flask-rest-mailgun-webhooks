@@ -1,0 +1,10 @@
+{% extends '_layout.html' %}
+{% block title %}Page Not Found {% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-3">Ouch, that's a 404!</h1>
+    <p>Sorry, but the page you are looking for can not be found on this server.</p>
+    <p>Please <a href="{{ url_for('index') }}">click here</a> to navigate away from this page...</p>
+</div>
+{% endblock %}
