@@ -1,4 +1,4 @@
-#### Catch MailGun WebHooks with Python3 + Flask RESTful + SQLAlchemy + Webhook Signature Verification
+#### Catch MailGun WebHooks with Python3 + SQLAlchemy + Webhook Signature Verification
 
 
 API Routes:
